@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | DigitalBoost</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/">
+        <i class="bi bi-lightning-charge-fill me-2"></i>
+        DigitalBoost
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services/">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/portfolio/">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact/">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5 mt-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+        <h1 class="display-4 fw-bold text-primary mb-4">Our Portfolio</h1>
+        <p class="lead text-muted">
+          Explore our successful projects and see how we've helped businesses achieve remarkable growth
+        </p>
+      </div>
+    </div>
+    
+    <!-- Portfolio Filter -->
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-outline-primary portfolio-filter active" data-filter="all">All Projects</button>
+          <button type="button" class="btn btn-outline-primary portfolio-filter" data-filter="seo">SEO</button>
+          <button type="button" class="btn btn-outline-primary portfolio-filter" data-filter="social">Social Media</button>
+          <button type="button" class="btn btn-outline-primary portfolio-filter" data-filter="web">Web Design</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Portfolio Grid -->
+    <div class="row g-4">
+      <!-- SEO Case Study -->
+      <div class="col-lg-6 portfolio-item" data-category="seo">
+        <div class="card portfolio-card h-100 border-0 shadow-lg">
+          <div class="card-header bg-success text-white">
+            <h5 class="card-title mb-0">
+              <i class="bi bi-search me-2"></i>
+              SEO Success Story
+            </h5>
+          </div>
+          <div class="card-body">
+            <h5 class="fw-bold text-primary mb-3">TechStart Solutions</h5>
+            <p class="text-muted mb-3">
+              A B2B software company struggling with online visibility and lead generation.
+            </p>
+            
+            <div class="row g-3 mb-4">
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-success">400%</div>
+                  <small class="text-muted">Traffic Increase</small>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-success">250%</div>
+                  <small class="text-muted">Lead Growth</small>
+                </div>
+              </div>
+            </div>
+            
+            <h6 class="fw-bold mb-2">What We Did:</h6>
+            <ul class="list-unstyled text-muted">
+              <li>• Comprehensive SEO audit and competitor analysis</li>
+              <li>• Keyword research targeting high-intent B2B terms</li>
+              <li>• Technical SEO improvements and site speed optimization</li>
+              <li>• Content strategy with 20+ industry-focused blog posts</li>
+            </ul>
+          </div>
+          <div class="card-footer bg-light">
+            <small class="text-muted">
+              <i class="bi bi-calendar me-1"></i>
+              Project Duration: 6 months | Industry: B2B Software
+            </small>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Social Media Campaign -->
+      <div class="col-lg-6 portfolio-item" data-category="social">
+        <div class="card portfolio-card h-100 border-0 shadow-lg">
+          <div class="card-header bg-info text-white">
+            <h5 class="card-title mb-0">
+              <i class="bi bi-share me-2"></i>
+              Social Media Campaign
+            </h5>
+          </div>
+          <div class="card-body">
+            <h5 class="fw-bold text-primary mb-3">FreshFoods Co.</h5>
+            <p class="text-muted mb-3">
+              An organic food retailer looking to build brand awareness and engage with health-conscious consumers.
+            </p>
+            
+            <div class="row g-3 mb-4">
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-info">50K</div>
+                  <small class="text-muted">New Followers</small>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-info">300%</div>
+                  <small class="text-muted">Engagement Rate</small>
+                </div>
+              </div>
+            </div>
+            
+            <h6 class="fw-bold mb-2">Campaign Strategy:</h6>
+            <ul class="list-unstyled text-muted">
+              <li>• Created content calendar focused on healthy recipes</li>
+              <li>• Developed user-generated content campaigns</li>
+              <li>• Partnered with health and wellness influencers</li>
+              <li>• Ran targeted Facebook and Instagram ads</li>
+            </ul>
+          </div>
+          <div class="card-footer bg-light">
+            <small class="text-muted">
+              <i class="bi bi-calendar me-1"></i>
+              Project Duration: 8 months | Industry: Food & Beverage
+            </small>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Website Redesign -->
+      <div class="col-lg-6 portfolio-item" data-category="web">
+        <div class="card portfolio-card h-100 border-0 shadow-lg">
+          <div class="card-header bg-warning text-dark">
+            <h5 class="card-title mb-0">
+              <i class="bi bi-palette me-2"></i>
+              E-commerce Website
+            </h5>
+          </div>
+          <div class="card-body">
+            <h5 class="fw-bold text-primary mb-3">Bella Boutique</h5>
+            <p class="text-muted mb-3">
+              A fashion retailer needing a modern e-commerce website to compete with larger brands.
+            </p>
+            
+            <div class="row g-3 mb-4">
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-warning">200%</div>
+                  <small class="text-muted">Sales Increase</small>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-warning">40%</div>
+                  <small class="text-muted">Higher Conversion</small>
+                </div>
+              </div>
+            </div>
+            
+            <h6 class="fw-bold mb-2">Design Features:</h6>
+            <ul class="list-unstyled text-muted">
+              <li>• Mobile-first responsive design</li>
+              <li>• Advanced product filtering and search</li>
+              <li>• One-click checkout process</li>
+              <li>• Integrated customer reviews system</li>
+            </ul>
+          </div>
+          <div class="card-footer bg-light">
+            <small class="text-muted">
+              <i class="bi bi-calendar me-1"></i>
+              Project Duration: 3 months | Industry: Fashion Retail
+            </small>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Integrated Campaign -->
+      <div class="col-lg-6 portfolio-item" data-category="seo social">
+        <div class="card portfolio-card h-100 border-0 shadow-lg">
+          <div class="card-header bg-primary text-white">
+            <h5 class="card-title mb-0">
+              <i class="bi bi-heart me-2"></i>
+              Integrated Campaign
+            </h5>
+          </div>
+          <div class="card-body">
+            <h5 class="fw-bold text-primary mb-3">HealthHub Clinic</h5>
+            <p class="text-muted mb-3">
+              A medical practice looking to attract more patients through digital marketing.
+            </p>
+            
+            <div class="row g-3 mb-4">
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-primary">180%</div>
+                  <small class="text-muted">New Patients</small>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-primary">85%</div>
+                  <small class="text-muted">Online Bookings</small>
+                </div>
+              </div>
+            </div>
+            
+            <h6 class="fw-bold mb-2">Integrated Approach:</h6>
+            <ul class="list-unstyled text-muted">
+              <li>• Local SEO optimization for medical terms</li>
+              <li>• Health education blog content</li>
+              <li>• Google My Business optimization</li>
+              <li>• Patient review management</li>
+            </ul>
+          </div>
+          <div class="card-footer bg-light">
+            <small class="text-muted">
+              <i class="bi bi-calendar me-1"></i>
+              Project Duration: 9 months | Industry: Healthcare
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center mb-5">
+          <h2 class="display-5 fw-bold text-primary mb-4">Client Success Stories</h2>
+          <p class="lead text-muted">
+            Here's what our clients have to say about working with DigitalBoost
+          </p>
+        </div>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="testimonial-card card border-0 shadow-sm h-100">
+            <div class="card-body text-center p-4">
+              <div class="testimonial-avatar mb-3">
+                <i class="bi bi-person-circle text-primary" style="font-size: 3rem;"></i>
+              </div>
+              <p class="mb-4 fst-italic">
+                "The SEO results exceeded all our expectations. We went from invisible online to dominating our market in just 6 months."
+              </p>
+              <h6 class="fw-bold mb-1">Sarah Johnson</h6>
+              <small class="text-muted">CEO, TechStart Solutions</small>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="testimonial-card card border-0 shadow-sm h-100">
+            <div class="card-body text-center p-4">
+              <div class="testimonial-avatar mb-3">
+                <i class="bi bi-person-circle text-primary" style="font-size: 3rem;"></i>
+              </div>
+              <p class="mb-4 fst-italic">
+                "Our social media presence transformed completely. The community they built around our brand is incredible."
+              </p>
+              <h6 class="fw-bold mb-1">Michael Chen</h6>
+              <small class="text-muted">Marketing Director, FreshFoods Co.</small>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="testimonial-card card border-0 shadow-sm h-100">
+            <div class="card-body text-center p-4">
+              <div class="testimonial-avatar mb-3">
+                <i class="bi bi-person-circle text-primary" style="font-size: 3rem;"></i>
+              </div>
+              <p class="mb-4 fst-italic">
+                "The new website not only looks amazing but has doubled our online sales. ROI was immediate."
+              </p>
+              <h6 class="fw-bold mb-1">Emily Rodriguez</h6>
+              <small class="text-muted">Founder, Bella Boutique</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-5 bg-primary text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h3 class="fw-bold mb-3">Ready to Become Our Next Success Story?</h3>
+          <p class="lead mb-0">
+            Let's discuss your goals and create a custom strategy to achieve remarkable results.
+          </p>
+        </div>
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+          <a href="/contact/" class="btn btn-light btn-lg px-4">
+            <i class="bi bi-rocket-takeoff me-2"></i>
+            Start Your Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h5 class="fw-bold mb-3">
+            <i class="bi bi-lightning-charge-fill me-2"></i>
+            DigitalBoost
+          </h5>
+          <p class="text-muted">
+            Professional digital marketing agency helping businesses grow their online presence and increase revenue.
+          </p>
+        </div>
+        
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Services</h6>
+          <ul class="list-unstyled">
+            <li><a href="/services/#seo" class="text-muted text-decoration-none">SEO</a></li>
+            <li><a href="/services/#social" class="text-muted text-decoration-none">Social Media</a></li>
+            <li><a href="/services/#web" class="text-muted text-decoration-none">Web Design</a></li>
+            <li><a href="/services/#content" class="text-muted text-decoration-none">Content Marketing</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="/" class="text-muted text-decoration-none">Home</a></li>
+            <li><a href="/services/" class="text-muted text-decoration-none">Services</a></li>
+            <li><a href="/blog/" class="text-muted text-decoration-none">Blog</a></li>
+            <li><a href="/contact/" class="text-muted text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 mb-4">
+          <h6 class="fw-bold mb-3">Contact Info</h6>
+          <div class="text-muted">
+            <p><i class="bi bi-geo-alt me-2"></i>123 Marketing Street<br>Toronto, ON M5V 3A8</p>
+            <p><i class="bi bi-phone me-2"></i>(416) 555-0123</p>
+            <p><i class="bi bi-envelope me-2"></i>hello@digitalboost.ca</p>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="my-4">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="text-muted mb-0">&copy; 2025 DigitalBoost. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="text-muted mb-0">Built with Eleventy & Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/script.js"></script>
+</body>
+</html>
+

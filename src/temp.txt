@@ -1,0 +1,1959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Marketing Blog | DigitalBoost</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/">
+        <i class="bi bi-lightning-charge-fill me-2"></i>
+        DigitalBoost
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services/">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/portfolio/">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/blog/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact/">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5 mt-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+        <h1 class="display-4 fw-bold text-primary mb-4">Digital Marketing Blog</h1>
+        <p class="lead text-muted">
+          Stay updated with the latest digital marketing trends, tips, and strategies from our expert team
+        </p>
+      </div>
+    </div>
+    
+    <!-- Featured Article -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="card featured-article border-0 shadow-lg">
+          <div class="card-body p-5">
+            <div class="row align-items-center">
+              <div class="col-lg-8">
+                <span class="badge bg-primary mb-3">Featured Article</span>
+                <h2 class="fw-bold text-primary mb-3">
+                  The Complete SEO Guide for 2024: What You Need to Know
+                </h2>
+                <p class="lead text-muted mb-4">
+                  Discover the latest SEO strategies and algorithm updates that will help your website rank higher in search results. From technical SEO to content optimization, we cover everything you need to know to dominate the SERPs.
+                </p>
+                <div class="d-flex align-items-center mb-3">
+                  <div class="me-3">
+                    <i class="bi bi-person-circle text-primary me-2"></i>
+                    <span class="text-muted">By Sarah Mitchell</span>
+                  </div>
+                  <div class="me-3">
+                    <i class="bi bi-calendar3 text-primary me-2"></i>
+                    <span class="text-muted">March 15, 2024</span>
+                  </div>
+                  <div>
+                    <i class="bi bi-clock text-primary me-2"></i>
+                    <span class="text-muted">12 min read</span>
+                  </div>
+                </div>
+                <a href="/blog/seo-guide-2024/" class="btn btn-primary">Read Full Article</a>
+              </div>
+              <div class="col-lg-4 text-lg-end">
+                <div class="featured-graphic">
+                  <i class="bi bi-graph-up text-primary" style="font-size: 5rem;"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Blog Categories Filter -->
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-outline-primary blog-filter active" data-filter="all">All Posts</button>
+          <button type="button" class="btn btn-outline-primary blog-filter" data-filter="seo">SEO</button>
+          <button type="button" class="btn btn-outline-primary blog-filter" data-filter="social-media">Social Media</button>
+          <button type="button" class="btn btn-outline-primary blog-filter" data-filter="analytics">Analytics</button>
+          <button type="button" class="btn btn-outline-primary blog-filter" data-filter="content">Content</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <!-- Main Blog Content -->
+      <div class="col-lg-8">
+        <div class="row g-4">
+          <!-- Blog Post 1 -->
+          <div class="col-md-6 blog-post" data-category="seo">
+            <div class="card blog-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <span class="badge bg-success mb-2">SEO</span>
+                <h5 class="card-title fw-bold">
+                  <a href="/blog/local-seo-small-business/" class="text-decoration-none text-primary">
+                    Local SEO Strategies for Small Businesses
+                  </a>
+                </h5>
+                <p class="card-text text-muted">
+                  Learn how to optimize your local business for Google search and Maps to attract more customers in your area.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">
+                    <i class="bi bi-calendar3 me-1"></i>
+                    March 10, 2024
+                  </small>
+                  <small class="text-muted">8 min read</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Blog Post 2 -->
+          <div class="col-md-6 blog-post" data-category="social-media">
+            <div class="card blog-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <span class="badge bg-info mb-2">Social Media</span>
+                <h5 class="card-title fw-bold">
+                  <a href="#" class="text-decoration-none text-primary">
+                    Instagram Marketing: Growing Your Following in 2024
+                  </a>
+                </h5>
+                <p class="card-text text-muted">
+                  Discover proven strategies to grow your Instagram audience and increase engagement with authentic content.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">
+                    <i class="bi bi-calendar3 me-1"></i>
+                    March 8, 2024
+                  </small>
+                  <small class="text-muted">10 min read</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Blog Post 3 -->
+          <div class="col-md-6 blog-post" data-category="analytics">
+            <div class="card blog-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <span class="badge bg-warning mb-2">Analytics</span>
+                <h5 class="card-title fw-bold">
+                  <a href="#" class="text-decoration-none text-primary">
+                    Google Analytics 4: Essential Metrics to Track
+                  </a>
+                </h5>
+                <p class="card-text text-muted">
+                  Master GA4 and learn which metrics matter most for measuring your digital marketing success.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">
+                    <i class="bi bi-calendar3 me-1"></i>
+                    March 5, 2024
+                  </small>
+                  <small class="text-muted">15 min read</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Blog Post 4 -->
+          <div class="col-md-6 blog-post" data-category="content">
+            <div class="card blog-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <span class="badge bg-danger mb-2">Content</span>
+                <h5 class="card-title fw-bold">
+                  <a href="#" class="text-decoration-none text-primary">
+                    Content Marketing ROI: How to Measure Success
+                  </a>
+                </h5>
+                <p class="card-text text-muted">
+                  Learn how to track and measure the return on investment of your content marketing efforts.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">
+                    <i class="bi bi-calendar3 me-1"></i>
+                    March 3, 2024
+                  </small>
+                  <small class="text-muted">12 min read</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Blog Post 5 -->
+          <div class="col-md-6 blog-post" data-category="seo">
+            <div class="card blog-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <span class="badge bg-success mb-2">SEO</span>
+                <h5 class="card-title fw-bold">
+                  <a href="#" class="text-decoration-none text-primary">
+                    Technical SEO Checklist for 2024
+                  </a>
+                </h5>
+                <p class="card-text text-muted">
+                  Comprehensive checklist to ensure your website meets all technical SEO requirements for better rankings.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">
+                    <i class="bi bi-calendar3 me-1"></i>
+                    March 1, 2024
+                  </small>
+                  <small class="text-muted">18 min read</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Blog Post 6 -->
+          <div class="col-md-6 blog-post" data-category="social-media">
+            <div class="card blog-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <span class="badge bg-info mb-2">Social Media</span>
+                <h5 class="card-title fw-bold">
+                  <a href="#" class="text-decoration-none text-primary">
+                    LinkedIn B2B Marketing: Best Practices
+                  </a>
+                </h5>
+                <p class="card-text text-muted">
+                  Unlock LinkedIn's potential for B2B marketing with proven strategies and content approaches.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">
+                    <i class="bi bi-calendar3 me-1"></i>
+                    February 28, 2024
+                  </small>
+                  <small class="text-muted">14 min read</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Pagination -->
+        <nav class="mt-5">
+          <ul class="pagination justify-content-center">
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      
+      <!-- Sidebar -->
+      <div class="col-lg-4">
+        <!-- Newsletter Signup -->
+        <div class="card border-0 shadow-sm mb-4">
+          <div class="card-body">
+            <h5 class="fw-bold text-primary mb-3">
+              <i class="bi bi-envelope me-2"></i>
+              Subscribe to Our Newsletter
+            </h5>
+            <p class="text-muted mb-4">
+              Get the latest digital marketing tips and strategies delivered to your inbox weekly.
+            </p>
+            <form class="newsletter-form">
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Enter your email" required>
+              </div>
+              <button type="submit" class="btn btn-primary w-100" data-loading-text="<i class='bi bi-hourglass-split'></i> Subscribing...">Subscribe Now</button>
+            </form>
+          </div>
+        </div>
+        
+        <!-- Popular Posts -->
+        <div class="card border-0 shadow-sm mb-4">
+          <div class="card-body">
+            <h5 class="fw-bold text-primary mb-3">
+              <i class="bi bi-star me-2"></i>
+              Popular Posts
+            </h5>
+            <div class="list-group list-group-flush">
+              <a href="#" class="list-group-item list-group-item-action border-0 px-0">
+                <h6 class="mb-1">The Complete SEO Guide for 2024</h6>
+                <small class="text-muted">March 15, 2024</small>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action border-0 px-0">
+                <h6 class="mb-1">Local SEO for Small Businesses</h6>
+                <small class="text-muted">March 10, 2024</small>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action border-0 px-0">
+                <h6 class="mb-1">Instagram Marketing Strategies</h6>
+                <small class="text-muted">March 8, 2024</small>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Categories -->
+        <div class="card border-0 shadow-sm">
+          <div class="card-body">
+            <h5 class="fw-bold text-primary mb-3">
+              <i class="bi bi-tags me-2"></i>
+              Categories
+            </h5>
+            <div class="list-group list-group-flush">
+              <a href="#" class="list-group-item list-group-item-action border-0 px-0 d-flex justify-content-between align-items-center">
+                SEO <span class="badge bg-primary rounded-pill">8</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action border-0 px-0 d-flex justify-content-between align-items-center">
+                Social Media <span class="badge bg-primary rounded-pill">6</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action border-0 px-0 d-flex justify-content-between align-items-center">
+                Analytics <span class="badge bg-primary rounded-pill">4</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action border-0 px-0 d-flex justify-content-between align-items-center">
+                Content Marketing <span class="badge bg-primary rounded-pill">5</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <section class="py-5 bg-primary text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h3 class="fw-bold mb-3">Need Help with Your Digital Marketing?</h3>
+          <p class="lead mb-0">
+            Let our experts help you implement these strategies and grow your business online.
+          </p>
+        </div>
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+          <a href="/contact/" class="btn btn-light btn-lg px-4">
+            <i class="bi bi-chat-dots me-2"></i>
+            Get Expert Help
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h5 class="fw-bold mb-3">
+            <i class="bi bi-lightning-charge-fill me-2"></i>
+            DigitalBoost
+          </h5>
+          <p class="text-muted">
+            Professional digital marketing agency helping businesses grow their online presence and increase revenue.
+          </p>
+        </div>
+        
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Services</h6>
+          <ul class="list-unstyled">
+            <li><a href="/services/#seo" class="text-muted text-decoration-none">SEO</a></li>
+            <li><a href="/services/#social" class="text-muted text-decoration-none">Social Media</a></li>
+            <li><a href="/services/#web" class="text-muted text-decoration-none">Web Design</a></li>
+            <li><a href="/services/#content" class="text-muted text-decoration-none">Content Marketing</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="/" class="text-muted text-decoration-none">Home</a></li>
+            <li><a href="/services/" class="text-muted text-decoration-none">Services</a></li>
+            <li><a href="/portfolio/" class="text-muted text-decoration-none">Portfolio</a></li>
+            <li><a href="/contact/" class="text-muted text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 mb-4">
+          <h6 class="fw-bold mb-3">Contact Info</h6>
+          <div class="text-muted">
+            <p><i class="bi bi-geo-alt me-2"></i>123 Marketing Street<br>Toronto, ON M5V 3A8</p>
+            <p><i class="bi bi-phone me-2"></i>(416) 555-0123</p>
+            <p><i class="bi bi-envelope me-2"></i>hello@digitalboost.ca</p>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="my-4">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="text-muted mb-0">&copy; 2025 DigitalBoost. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="text-muted mb-0">Built with Eleventy & Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | DigitalBoost</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/">
+        <i class="bi bi-lightning-charge-fill me-2"></i>
+        DigitalBoost
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services/">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/portfolio/">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/contact/">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5 mt-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+        <h1 class="display-4 fw-bold text-primary mb-4">Get In Touch</h1>
+        <p class="lead text-muted">
+          Ready to boost your digital presence? Contact us today for a free consultation and see how we can help your business grow.
+        </p>
+      </div>
+    </div>
+    
+    <div class="row g-5">
+      <!-- Contact Form -->
+      <div class="col-lg-8">
+        <div class="card border-0 shadow-lg">
+          <div class="card-body p-5">
+            <h3 class="fw-bold text-primary mb-4">Send Us a Message</h3>
+            
+            <form id="contactForm" class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="firstName" name="firstName" required>
+                  <div class="invalid-feedback">
+                    Please provide your first name.
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <label for="lastName" class="form-label">Last Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="lastName" name="lastName" required>
+                  <div class="invalid-feedback">
+                    Please provide your last name.
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid email address.
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" id="phone" name="phone">
+                </div>
+                
+                <div class="col-12">
+                  <label for="company" class="form-label">Company/Organization</label>
+                  <input type="text" class="form-control" id="company" name="company">
+                </div>
+                
+                <div class="col-12">
+                  <label for="service" class="form-label">Service Interest <span class="text-danger">*</span></label>
+                  <select class="form-select" id="service" name="service" required>
+                    <option value="">Choose a service...</option>
+                    <option value="seo">Search Engine Optimization (SEO)</option>
+                    <option value="social-media">Social Media Marketing</option>
+                    <option value="web-design">Web Design & Development</option>
+                    <option value="content-marketing">Content Marketing</option>
+                    <option value="google-ads">Google Ads & PPC</option>
+                    <option value="analytics">Analytics & Reporting</option>
+                    <option value="consultation">Free Consultation</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a service you're interested in.
+                  </div>
+                </div>
+                
+                <div class="col-12">
+                  <label for="budget" class="form-label">Monthly Budget Range</label>
+                  <select class="form-select" id="budget" name="budget">
+                    <option value="">Select budget range...</option>
+                    <option value="under-1000">Under $1,000</option>
+                    <option value="1000-2500">$1,000 - $2,500</option>
+                    <option value="2500-5000">$2,500 - $5,000</option>
+                    <option value="5000-10000">$5,000 - $10,000</option>
+                    <option value="over-10000">Over $10,000</option>
+                  </select>
+                </div>
+                
+                <div class="col-12">
+                  <label for="timeline" class="form-label">Project Timeline</label>
+                  <select class="form-select" id="timeline" name="timeline">
+                    <option value="">When would you like to start?</option>
+                    <option value="immediately">Immediately</option>
+                    <option value="within-month">Within 1 month</option>
+                    <option value="1-3-months">1-3 months</option>
+                    <option value="3-6-months">3-6 months</option>
+                    <option value="not-sure">Not sure yet</option>
+                  </select>
+                </div>
+                
+                <div class="col-12">
+                  <label for="message" class="form-label">Project Details <span class="text-danger">*</span></label>
+                  <textarea class="form-control" id="message" name="message" rows="5" 
+                            placeholder="Tell us about your project, goals, current challenges, or any specific requirements..." required></textarea>
+                  <div class="invalid-feedback">
+                    Please provide details about your project.
+                  </div>
+                </div>
+                
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="newsletter" name="newsletter">
+                    <label class="form-check-label" for="newsletter">
+                      Subscribe to our newsletter for digital marketing tips and updates
+                    </label>
+                  </div>
+                </div>
+                
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="privacy" name="privacy" required>
+                    <label class="form-check-label" for="privacy">
+                      I agree to the <a href="#" class="text-primary">Privacy Policy</a> and <a href="#" class="text-primary">Terms of Service</a> <span class="text-danger">*</span>
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree to our privacy policy and terms.
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary btn-lg px-5" data-loading-text="<i class='bi bi-hourglass-split me-2'></i>Sending...">
+                    <i class="bi bi-send me-2"></i>
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contact Information -->
+      <div class="col-lg-4">
+        <!-- Contact Details -->
+        <div class="card border-0 shadow-sm mb-4">
+          <div class="card-body p-4">
+            <h5 class="fw-bold text-primary mb-4">
+              <i class="bi bi-geo-alt me-2"></i>
+              Contact Information
+            </h5>
+            
+            <div class="contact-item mb-4">
+              <div class="d-flex align-items-start">
+                <div class="contact-icon me-3">
+                  <i class="bi bi-building text-primary fs-4"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-1">Office Address</h6>
+                  <p class="text-muted mb-0">
+                    123 Marketing Street<br>
+                    Suite 400<br>
+                    Toronto, ON M5V 3A8<br>
+                    Canada
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="contact-item mb-4">
+              <div class="d-flex align-items-start">
+                <div class="contact-icon me-3">
+                  <i class="bi bi-telephone text-primary fs-4"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-1">Phone</h6>
+                  <p class="text-muted mb-0">
+                    <a href="tel:+14165550123" class="text-decoration-none">(416) 555-0123</a><br>
+                    <small>Mon-Fri: 9:00 AM - 6:00 PM EST</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="contact-item mb-4">
+              <div class="d-flex align-items-start">
+                <div class="contact-icon me-3">
+                  <i class="bi bi-envelope text-primary fs-4"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-1">Email</h6>
+                  <p class="text-muted mb-0">
+                    <a href="mailto:hello@digitalboost.ca" class="text-decoration-none">hello@digitalboost.ca</a><br>
+                    <small>We respond within 24 hours</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="d-flex align-items-start">
+                <div class="contact-icon me-3">
+                  <i class="bi bi-chat-dots text-primary fs-4"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-1">Live Chat</h6>
+                  <p class="text-muted mb-2">Available on our website</p>
+                  <button class="btn btn-outline-primary btn-sm">
+                    <i class="bi bi-chat me-1"></i>
+                    Start Chat
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Business Hours -->
+        <div class="card border-0 shadow-sm mb-4">
+          <div class="card-body p-4">
+            <h5 class="fw-bold text-primary mb-4">
+              <i class="bi bi-clock me-2"></i>
+              Business Hours
+            </h5>
+            
+            <div class="business-hours">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="fw-semibold">Monday - Friday</span>
+                <span class="text-muted">9:00 AM - 6:00 PM</span>
+              </div>
+              <div class="d-flex justify-content-between mb-2">
+                <span class="fw-semibold">Saturday</span>
+                <span class="text-muted">10:00 AM - 4:00 PM</span>
+              </div>
+              <div class="d-flex justify-content-between mb-2">
+                <span class="fw-semibold">Sunday</span>
+                <span class="text-muted">Closed</span>
+              </div>
+              <hr class="my-3">
+              <div class="text-center">
+                <p class="text-muted mb-0">
+                  <i class="bi bi-info-circle me-1"></i>
+                  Emergency support available 24/7
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- FAQ Quick Links -->
+        <div class="card border-0 shadow-sm">
+          <div class="card-body p-4">
+            <h5 class="fw-bold text-primary mb-4">
+              <i class="bi bi-question-circle me-2"></i>
+              Quick Answers
+            </h5>
+            
+            <div class="accordion accordion-flush" id="faqAccordion">
+              <div class="accordion-item border-0">
+                <h6 class="accordion-header">
+                  <button class="accordion-button collapsed p-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    How long does SEO take?
+                  </button>
+                </h6>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body p-0 pt-2">
+                    <p class="text-muted small">
+                      SEO results typically take 3-6 months to show significant improvement, depending on competition and current website status.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item border-0">
+                <h6 class="accordion-header">
+                  <button class="accordion-button collapsed p-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    Do you offer free consultations?
+                  </button>
+                </h6>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body p-0 pt-2">
+                    <p class="text-muted small">
+                      Yes! We offer free 30-minute consultations to discuss your goals and how we can help achieve them.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item border-0">
+                <h6 class="accordion-header">
+                  <button class="accordion-button collapsed p-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    What's included in your packages?
+                  </button>
+                </h6>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body p-0 pt-2">
+                    <p class="text-muted small">
+                      All packages include strategy development, implementation, monthly reporting, and ongoing optimization.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Map Section -->
+    <div class="row mt-5">
+      <div class="col-12">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body p-0">
+            <div class="map-container" style="height: 400px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); position: relative;">
+              <div class="d-flex align-items-center justify-content-center h-100 text-white text-center">
+                <div>
+                  <i class="bi bi-geo-alt-fill display-4 mb-3"></i>
+                  <h4 class="fw-bold">Visit Our Office</h4>
+                  <p class="mb-3">123 Marketing Street, Suite 400<br>Toronto, ON M5V 3A8</p>
+                  <button class="btn btn-light">
+                    <i class="bi bi-map me-2"></i>
+                    View on Google Maps
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h3 class="fw-bold text-primary mb-3">Ready to Get Started?</h3>
+          <p class="lead text-muted mb-0">
+            Book a free consultation call and let's discuss how we can help grow your business online.
+          </p>
+        </div>
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+          <a href="tel:+14165550123" class="btn btn-primary btn-lg px-4 me-3">
+            <i class="bi bi-telephone me-2"></i>
+            Call Now
+          </a>
+          <a href="#contactForm" class="btn btn-outline-primary btn-lg px-4">
+            <i class="bi bi-calendar me-2"></i>
+            Book Call
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h5 class="fw-bold mb-3">
+            <i class="bi bi-lightning-charge-fill me-2"></i>
+            DigitalBoost
+          </h5>
+          <p class="text-muted">
+            Professional digital marketing agency helping businesses grow their online presence and increase revenue.
+          </p>
+          <div class="social-links">
+            <a href="#" class="text-muted me-3"><i class="bi bi-facebook fs-5"></i></a>
+            <a href="#" class="text-muted me-3"><i class="bi bi-twitter fs-5"></i></a>
+            <a href="#" class="text-muted me-3"><i class="bi bi-linkedin fs-5"></i></a>
+            <a href="#" class="text-muted me-3"><i class="bi bi-instagram fs-5"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Services</h6>
+          <ul class="list-unstyled">
+            <li><a href="/services/#seo" class="text-muted text-decoration-none">SEO</a></li>
+            <li><a href="/services/#social" class="text-muted text-decoration-none">Social Media</a></li>
+            <li><a href="/services/#web" class="text-muted text-decoration-none">Web Design</a></li>
+            <li><a href="/services/#content" class="text-muted text-decoration-none">Content Marketing</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="/" class="text-muted text-decoration-none">Home</a></li>
+            <li><a href="/services/" class="text-muted text-decoration-none">Services</a></li>
+            <li><a href="/portfolio/" class="text-muted text-decoration-none">Portfolio</a></li>
+            <li><a href="/blog/" class="text-muted text-decoration-none">Blog</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 mb-4">
+          <h6 class="fw-bold mb-3">Contact Info</h6>
+          <div class="text-muted">
+            <p><i class="bi bi-geo-alt me-2"></i>123 Marketing Street<br>Toronto, ON M5V 3A8</p>
+            <p><i class="bi bi-phone me-2"></i>(416) 555-0123</p>
+            <p><i class="bi bi-envelope me-2"></i>hello@digitalboost.ca</p>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="my-4">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="text-muted mb-0">&copy; 2025 DigitalBoost. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="text-muted mb-0">Built with Eleventy & Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | DigitalBoost</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/">
+        <i class="bi bi-lightning-charge-fill me-2"></i>
+        DigitalBoost
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services/">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/portfolio/">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact/">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="display-4 fw-bold mb-4">
+            Accelerate Your <span class="text-primary">Business Growth</span> 
+            Through Digital Marketing
+          </h1>
+          <p class="lead mb-4">
+            We help businesses increase their online visibility, drive more traffic, 
+            and convert visitors into loyal customers through proven digital marketing strategies.
+          </p>
+          <div class="d-flex gap-3">
+            <a href="/contact/" class="btn btn-primary btn-lg">
+              <i class="bi bi-rocket-takeoff me-2"></i>
+              Get Started Today
+            </a>
+            <a href="/portfolio/" class="btn btn-outline-primary btn-lg">
+              <i class="bi bi-play-circle me-2"></i>
+              View Our Work
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-image">
+            <div class="hero-graphic">
+              <i class="bi bi-graph-up-arrow text-primary"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="stat-item">
+            <div class="stat-number fw-bold text-primary" data-count="250" data-suffix="+">0+</div>
+            <div class="stat-label text-muted">Happy Clients</div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="stat-item">
+            <div class="stat-number fw-bold text-primary" data-count="500" data-suffix="+">0+</div>
+            <div class="stat-label text-muted">Projects Completed</div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="stat-item">
+            <div class="stat-number fw-bold text-primary" data-count="8" data-suffix=" Years">0 Years</div>
+            <div class="stat-label text-muted">Experience</div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="stat-item">
+            <div class="stat-number fw-bold text-primary" data-count="98" data-suffix="%">0%</div>
+            <div class="stat-label text-muted">Client Satisfaction</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Preview -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center mb-5">
+          <h2 class="display-5 fw-bold text-primary mb-4">Our Digital Marketing Services</h2>
+          <p class="lead text-muted">
+            We offer comprehensive digital marketing solutions to help your business thrive online
+          </p>
+        </div>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="service-card card h-100 border-0 shadow-sm">
+            <div class="card-body p-4">
+              <div class="service-icon mb-3">
+                <i class="bi bi-search text-primary"></i>
+              </div>
+              <h5 class="card-title fw-bold">Search Engine Optimization</h5>
+              <p class="card-text text-muted">
+                Improve your website's visibility in search results and drive organic traffic.
+              </p>
+              <a href="/services/#seo" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6">
+          <div class="service-card card h-100 border-0 shadow-sm">
+            <div class="card-body p-4">
+              <div class="service-icon mb-3">
+                <i class="bi bi-share text-primary"></i>
+              </div>
+              <h5 class="card-title fw-bold">Social Media Marketing</h5>
+              <p class="card-text text-muted">
+                Build your brand presence and engage with customers on social platforms.
+              </p>
+              <a href="/services/#social" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6">
+          <div class="service-card card h-100 border-0 shadow-sm">
+            <div class="card-body p-4">
+              <div class="service-icon mb-3">
+                <i class="bi bi-palette text-primary"></i>
+              </div>
+              <h5 class="card-title fw-bold">Web Design & Development</h5>
+              <p class="card-text text-muted">
+                Create stunning, responsive websites that convert visitors into customers.
+              </p>
+              <a href="/services/#web" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-5 bg-primary text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h3 class="fw-bold mb-3">Ready to Grow Your Business?</h3>
+          <p class="lead mb-0">
+            Get a free consultation and discover how we can help you achieve your digital marketing goals.
+          </p>
+        </div>
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+          <a href="/contact/" class="btn btn-light btn-lg px-4">
+            <i class="bi bi-telephone me-2"></i>
+            Get Free Consultation
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h5 class="fw-bold mb-3">
+            <i class="bi bi-lightning-charge-fill me-2"></i>
+            DigitalBoost
+          </h5>
+          <p class="text-muted">
+            Professional digital marketing agency helping businesses grow their online presence and increase revenue.
+          </p>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-muted"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-muted"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-muted"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="text-muted"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Services</h6>
+          <ul class="list-unstyled">
+            <li><a href="/services/#seo" class="text-muted text-decoration-none">SEO</a></li>
+            <li><a href="/services/#social" class="text-muted text-decoration-none">Social Media</a></li>
+            <li><a href="/services/#web" class="text-muted text-decoration-none">Web Design</a></li>
+            <li><a href="/services/#content" class="text-muted text-decoration-none">Content Marketing</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="/portfolio/" class="text-muted text-decoration-none">Portfolio</a></li>
+            <li><a href="/blog/" class="text-muted text-decoration-none">Blog</a></li>
+            <li><a href="/contact/" class="text-muted text-decoration-none">Contact</a></li>
+            <li><a href="#" class="text-muted text-decoration-none">Privacy Policy</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 mb-4">
+          <h6 class="fw-bold mb-3">Contact Info</h6>
+          <div class="text-muted">
+            <p><i class="bi bi-geo-alt me-2"></i>123 Marketing Street<br>Toronto, ON M5V 3A8</p>
+            <p><i class="bi bi-phone me-2"></i>(416) 555-0123</p>
+            <p><i class="bi bi-envelope me-2"></i>hello@digitalboost.ca</p>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="my-4">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="text-muted mb-0">&copy; 2025 DigitalBoost. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="text-muted mb-0">Built with Eleventy & Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | DigitalBoost</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/">
+        <i class="bi bi-lightning-charge-fill me-2"></i>
+        DigitalBoost
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services/">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/portfolio/">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact/">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5 mt-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+        <h1 class="display-4 fw-bold text-primary mb-4">Our Portfolio</h1>
+        <p class="lead text-muted">
+          Explore our successful projects and see how we've helped businesses achieve remarkable growth
+        </p>
+      </div>
+    </div>
+    
+    <!-- Portfolio Filter -->
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-outline-primary portfolio-filter active" data-filter="all">All Projects</button>
+          <button type="button" class="btn btn-outline-primary portfolio-filter" data-filter="seo">SEO</button>
+          <button type="button" class="btn btn-outline-primary portfolio-filter" data-filter="social">Social Media</button>
+          <button type="button" class="btn btn-outline-primary portfolio-filter" data-filter="web">Web Design</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Portfolio Grid -->
+    <div class="row g-4">
+      <!-- SEO Case Study -->
+      <div class="col-lg-6 portfolio-item" data-category="seo">
+        <div class="card portfolio-card h-100 border-0 shadow-lg">
+          <div class="card-header bg-success text-white">
+            <h5 class="card-title mb-0">
+              <i class="bi bi-search me-2"></i>
+              SEO Success Story
+            </h5>
+          </div>
+          <div class="card-body">
+            <h5 class="fw-bold text-primary mb-3">TechStart Solutions</h5>
+            <p class="text-muted mb-3">
+              A B2B software company struggling with online visibility and lead generation.
+            </p>
+            
+            <div class="row g-3 mb-4">
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-success">400%</div>
+                  <small class="text-muted">Traffic Increase</small>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-success">250%</div>
+                  <small class="text-muted">Lead Growth</small>
+                </div>
+              </div>
+            </div>
+            
+            <h6 class="fw-bold mb-2">What We Did:</h6>
+            <ul class="list-unstyled text-muted">
+              <li>• Comprehensive SEO audit and competitor analysis</li>
+              <li>• Keyword research targeting high-intent B2B terms</li>
+              <li>• Technical SEO improvements and site speed optimization</li>
+              <li>• Content strategy with 20+ industry-focused blog posts</li>
+            </ul>
+          </div>
+          <div class="card-footer bg-light">
+            <small class="text-muted">
+              <i class="bi bi-calendar me-1"></i>
+              Project Duration: 6 months | Industry: B2B Software
+            </small>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Social Media Campaign -->
+      <div class="col-lg-6 portfolio-item" data-category="social">
+        <div class="card portfolio-card h-100 border-0 shadow-lg">
+          <div class="card-header bg-info text-white">
+            <h5 class="card-title mb-0">
+              <i class="bi bi-share me-2"></i>
+              Social Media Campaign
+            </h5>
+          </div>
+          <div class="card-body">
+            <h5 class="fw-bold text-primary mb-3">FreshFoods Co.</h5>
+            <p class="text-muted mb-3">
+              An organic food retailer looking to build brand awareness and engage with health-conscious consumers.
+            </p>
+            
+            <div class="row g-3 mb-4">
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-info">50K</div>
+                  <small class="text-muted">New Followers</small>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-info">300%</div>
+                  <small class="text-muted">Engagement Rate</small>
+                </div>
+              </div>
+            </div>
+            
+            <h6 class="fw-bold mb-2">Campaign Strategy:</h6>
+            <ul class="list-unstyled text-muted">
+              <li>• Created content calendar focused on healthy recipes</li>
+              <li>• Developed user-generated content campaigns</li>
+              <li>• Partnered with health and wellness influencers</li>
+              <li>• Ran targeted Facebook and Instagram ads</li>
+            </ul>
+          </div>
+          <div class="card-footer bg-light">
+            <small class="text-muted">
+              <i class="bi bi-calendar me-1"></i>
+              Project Duration: 8 months | Industry: Food & Beverage
+            </small>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Website Redesign -->
+      <div class="col-lg-6 portfolio-item" data-category="web">
+        <div class="card portfolio-card h-100 border-0 shadow-lg">
+          <div class="card-header bg-warning text-dark">
+            <h5 class="card-title mb-0">
+              <i class="bi bi-palette me-2"></i>
+              E-commerce Website
+            </h5>
+          </div>
+          <div class="card-body">
+            <h5 class="fw-bold text-primary mb-3">Bella Boutique</h5>
+            <p class="text-muted mb-3">
+              A fashion retailer needing a modern e-commerce website to compete with larger brands.
+            </p>
+            
+            <div class="row g-3 mb-4">
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-warning">200%</div>
+                  <small class="text-muted">Sales Increase</small>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-warning">40%</div>
+                  <small class="text-muted">Higher Conversion</small>
+                </div>
+              </div>
+            </div>
+            
+            <h6 class="fw-bold mb-2">Design Features:</h6>
+            <ul class="list-unstyled text-muted">
+              <li>• Mobile-first responsive design</li>
+              <li>• Advanced product filtering and search</li>
+              <li>• One-click checkout process</li>
+              <li>• Integrated customer reviews system</li>
+            </ul>
+          </div>
+          <div class="card-footer bg-light">
+            <small class="text-muted">
+              <i class="bi bi-calendar me-1"></i>
+              Project Duration: 3 months | Industry: Fashion Retail
+            </small>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Integrated Campaign -->
+      <div class="col-lg-6 portfolio-item" data-category="seo social">
+        <div class="card portfolio-card h-100 border-0 shadow-lg">
+          <div class="card-header bg-primary text-white">
+            <h5 class="card-title mb-0">
+              <i class="bi bi-heart me-2"></i>
+              Integrated Campaign
+            </h5>
+          </div>
+          <div class="card-body">
+            <h5 class="fw-bold text-primary mb-3">HealthHub Clinic</h5>
+            <p class="text-muted mb-3">
+              A medical practice looking to attract more patients through digital marketing.
+            </p>
+            
+            <div class="row g-3 mb-4">
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-primary">180%</div>
+                  <small class="text-muted">New Patients</small>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-center">
+                  <div class="h4 fw-bold text-primary">85%</div>
+                  <small class="text-muted">Online Bookings</small>
+                </div>
+              </div>
+            </div>
+            
+            <h6 class="fw-bold mb-2">Integrated Approach:</h6>
+            <ul class="list-unstyled text-muted">
+              <li>• Local SEO optimization for medical terms</li>
+              <li>• Health education blog content</li>
+              <li>• Google My Business optimization</li>
+              <li>• Patient review management</li>
+            </ul>
+          </div>
+          <div class="card-footer bg-light">
+            <small class="text-muted">
+              <i class="bi bi-calendar me-1"></i>
+              Project Duration: 9 months | Industry: Healthcare
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center mb-5">
+          <h2 class="display-5 fw-bold text-primary mb-4">Client Success Stories</h2>
+          <p class="lead text-muted">
+            Here's what our clients have to say about working with DigitalBoost
+          </p>
+        </div>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="testimonial-card card border-0 shadow-sm h-100">
+            <div class="card-body text-center p-4">
+              <div class="testimonial-avatar mb-3">
+                <i class="bi bi-person-circle text-primary" style="font-size: 3rem;"></i>
+              </div>
+              <p class="mb-4 fst-italic">
+                "The SEO results exceeded all our expectations. We went from invisible online to dominating our market in just 6 months."
+              </p>
+              <h6 class="fw-bold mb-1">Sarah Johnson</h6>
+              <small class="text-muted">CEO, TechStart Solutions</small>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="testimonial-card card border-0 shadow-sm h-100">
+            <div class="card-body text-center p-4">
+              <div class="testimonial-avatar mb-3">
+                <i class="bi bi-person-circle text-primary" style="font-size: 3rem;"></i>
+              </div>
+              <p class="mb-4 fst-italic">
+                "Our social media presence transformed completely. The community they built around our brand is incredible."
+              </p>
+              <h6 class="fw-bold mb-1">Michael Chen</h6>
+              <small class="text-muted">Marketing Director, FreshFoods Co.</small>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="testimonial-card card border-0 shadow-sm h-100">
+            <div class="card-body text-center p-4">
+              <div class="testimonial-avatar mb-3">
+                <i class="bi bi-person-circle text-primary" style="font-size: 3rem;"></i>
+              </div>
+              <p class="mb-4 fst-italic">
+                "The new website not only looks amazing but has doubled our online sales. ROI was immediate."
+              </p>
+              <h6 class="fw-bold mb-1">Emily Rodriguez</h6>
+              <small class="text-muted">Founder, Bella Boutique</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-5 bg-primary text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h3 class="fw-bold mb-3">Ready to Become Our Next Success Story?</h3>
+          <p class="lead mb-0">
+            Let's discuss your goals and create a custom strategy to achieve remarkable results.
+          </p>
+        </div>
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+          <a href="/contact/" class="btn btn-light btn-lg px-4">
+            <i class="bi bi-rocket-takeoff me-2"></i>
+            Start Your Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h5 class="fw-bold mb-3">
+            <i class="bi bi-lightning-charge-fill me-2"></i>
+            DigitalBoost
+          </h5>
+          <p class="text-muted">
+            Professional digital marketing agency helping businesses grow their online presence and increase revenue.
+          </p>
+        </div>
+        
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Services</h6>
+          <ul class="list-unstyled">
+            <li><a href="/services/#seo" class="text-muted text-decoration-none">SEO</a></li>
+            <li><a href="/services/#social" class="text-muted text-decoration-none">Social Media</a></li>
+            <li><a href="/services/#web" class="text-muted text-decoration-none">Web Design</a></li>
+            <li><a href="/services/#content" class="text-muted text-decoration-none">Content Marketing</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="/" class="text-muted text-decoration-none">Home</a></li>
+            <li><a href="/services/" class="text-muted text-decoration-none">Services</a></li>
+            <li><a href="/blog/" class="text-muted text-decoration-none">Blog</a></li>
+            <li><a href="/contact/" class="text-muted text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 mb-4">
+          <h6 class="fw-bold mb-3">Contact Info</h6>
+          <div class="text-muted">
+            <p><i class="bi bi-geo-alt me-2"></i>123 Marketing Street<br>Toronto, ON M5V 3A8</p>
+            <p><i class="bi bi-phone me-2"></i>(416) 555-0123</p>
+            <p><i class="bi bi-envelope me-2"></i>hello@digitalboost.ca</p>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="my-4">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="text-muted mb-0">&copy; 2025 DigitalBoost. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="text-muted mb-0">Built with Eleventy & Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services | DigitalBoost</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/">
+        <i class="bi bi-lightning-charge-fill me-2"></i>
+        DigitalBoost
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/services/">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/portfolio/">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact/">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5 mt-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+        <h1 class="display-4 fw-bold text-primary mb-4">Our Digital Marketing Services</h1>
+        <p class="lead text-muted">
+          Comprehensive digital marketing solutions designed to help your business grow and succeed online
+        </p>
+        
+        <!-- Service Search -->
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-6">
+            <div class="input-group">
+              <input type="search" class="form-control form-control-lg search-input" 
+                     id="serviceSearch" placeholder="Search services..." 
+                     data-search-target=".service-section">
+              <span class="input-group-text">
+                <i class="bi bi-search"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- SEO Service -->
+    <section id="seo" class="mb-5 service-section">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div class="service-icon-large mb-3">
+            <i class="bi bi-search text-primary"></i>
+          </div>
+          <h2 class="fw-bold text-primary mb-3">Search Engine Optimization (SEO)</h2>
+          <p class="lead mb-4">
+            Improve your website's visibility in search results and drive high-quality organic traffic to your business.
+          </p>
+          <ul class="list-unstyled mb-4">
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Keyword Research & Strategy</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>On-Page Optimization</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Technical SEO Audits</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Link Building Campaigns</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Local SEO Optimization</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Performance Tracking & Reporting</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div class="card border-0 shadow-lg">
+            <div class="card-body p-4">
+              <h5 class="fw-bold mb-3">SEO Package Includes:</h5>
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="text-center">
+                    <div class="h4 fw-bold text-primary">400%</div>
+                    <small class="text-muted">Avg. Traffic Increase</small>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="text-center">
+                    <div class="h4 fw-bold text-primary">3-6</div>
+                    <small class="text-muted">Months to See Results</small>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <p class="text-muted">Starting at <span class="fw-bold text-primary">$1,500/month</span></p>
+              <a href="/contact/" class="btn btn-primary">Get SEO Quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media Service -->
+    <section id="social" class="mb-5 service-section">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+          <div class="service-icon-large mb-3">
+            <i class="bi bi-share text-info"></i>
+          </div>
+          <h2 class="fw-bold text-info mb-3">Social Media Marketing</h2>
+          <p class="lead mb-4">
+            Build your brand presence and engage with your target audience across all major social platforms.
+          </p>
+          <ul class="list-unstyled mb-4">
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Social Media Strategy Development</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Content Creation & Curation</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Community Management</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Paid Social Advertising</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Influencer Partnerships</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Analytics & Reporting</li>
+          </ul>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="card border-0 shadow-lg">
+            <div class="card-body p-4">
+              <h5 class="fw-bold mb-3">Social Media Results:</h5>
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="text-center">
+                    <div class="h4 fw-bold text-info">300%</div>
+                    <small class="text-muted">Engagement Increase</small>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="text-center">
+                    <div class="h4 fw-bold text-info">50K+</div>
+                    <small class="text-muted">New Followers</small>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <p class="text-muted">Starting at <span class="fw-bold text-info">$1,200/month</span></p>
+              <a href="/contact/" class="btn btn-info">Get Social Quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Web Design Service -->
+    <section id="web" class="mb-5 service-section">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div class="service-icon-large mb-3">
+            <i class="bi bi-palette text-warning"></i>
+          </div>
+          <h2 class="fw-bold text-warning mb-3">Web Design & Development</h2>
+          <p class="lead mb-4">
+            Create stunning, responsive websites that convert visitors into customers and represent your brand perfectly.
+          </p>
+          <ul class="list-unstyled mb-4">
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Custom Website Design</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Responsive Mobile Optimization</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>E-commerce Development</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Content Management Systems</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Speed & Performance Optimization</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Ongoing Maintenance & Support</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div class="card border-0 shadow-lg">
+            <div class="card-body p-4">
+              <h5 class="fw-bold mb-3">Web Design Features:</h5>
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="text-center">
+                    <div class="h4 fw-bold text-warning">200%</div>
+                    <small class="text-muted">Conversion Increase</small>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="text-center">
+                    <div class="h4 fw-bold text-warning">3-4</div>
+                    <small class="text-muted">Week Delivery</small>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <p class="text-muted">Starting at <span class="fw-bold text-warning">$5,000</span></p>
+              <a href="/contact/" class="btn btn-warning">Get Web Quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content Marketing Service -->
+    <section id="content" class="mb-5 service-section">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+          <div class="service-icon-large mb-3">
+            <i class="bi bi-file-earmark-text text-danger"></i>
+          </div>
+          <h2 class="fw-bold text-danger mb-3">Content Marketing</h2>
+          <p class="lead mb-4">
+            Develop compelling content that attracts, engages, and converts your target audience into loyal customers.
+          </p>
+          <ul class="list-unstyled mb-4">
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Content Strategy Development</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Blog Writing & Management</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Video Content Creation</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Email Marketing Campaigns</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Lead Magnets & E-books</li>
+            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Content Performance Analysis</li>
+          </ul>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="card border-0 shadow-lg">
+            <div class="card-body p-4">
+              <h5 class="fw-bold mb-3">Content Results:</h5>
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="text-center">
+                    <div class="h4 fw-bold text-danger">500%</div>
+                    <small class="text-muted">Blog Traffic Growth</small>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="text-center">
+                    <div class="h4 fw-bold text-danger">150+</div>
+                    <small class="text-muted">Quality Leads/Month</small>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <p class="text-muted">Starting at <span class="fw-bold text-danger">$2,000/month</span></p>
+              <a href="/contact/" class="btn btn-danger">Get Content Quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- CTA Section -->
+  <section class="py-5 bg-primary text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h3 class="fw-bold mb-3">Ready to Transform Your Digital Presence?</h3>
+          <p class="lead mb-0">
+            Get a free consultation and custom strategy tailored to your business goals.
+          </p>
+        </div>
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+          <a href="/contact/" class="btn btn-light btn-lg px-4">
+            <i class="bi bi-calendar-check me-2"></i>
+            Schedule Consultation
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h5 class="fw-bold mb-3">
+            <i class="bi bi-lightning-charge-fill me-2"></i>
+            DigitalBoost
+          </h5>
+          <p class="text-muted">
+            Professional digital marketing agency helping businesses grow their online presence and increase revenue.
+          </p>
+        </div>
+        
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Services</h6>
+          <ul class="list-unstyled">
+            <li><a href="#seo" class="text-muted text-decoration-none">SEO</a></li>
+            <li><a href="#social" class="text-muted text-decoration-none">Social Media</a></li>
+            <li><a href="#web" class="text-muted text-decoration-none">Web Design</a></li>
+            <li><a href="#content" class="text-muted text-decoration-none">Content Marketing</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="/" class="text-muted text-decoration-none">Home</a></li>
+            <li><a href="/portfolio/" class="text-muted text-decoration-none">Portfolio</a></li>
+            <li><a href="/blog/" class="text-muted text-decoration-none">Blog</a></li>
+            <li><a href="/contact/" class="text-muted text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 mb-4">
+          <h6 class="fw-bold mb-3">Contact Info</h6>
+          <div class="text-muted">
+            <p><i class="bi bi-geo-alt me-2"></i>123 Marketing Street<br>Toronto, ON M5V 3A8</p>
+            <p><i class="bi bi-phone me-2"></i>(416) 555-0123</p>
+            <p><i class="bi bi-envelope me-2"></i>hello@digitalboost.ca</p>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="my-4">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="text-muted mb-0">&copy; 2025 DigitalBoost. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="text-muted mb-0">Built with Eleventy & Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DigitalBoost - Test Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="/">DigitalBoost</a>
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/services/">Services</a>
+        <a class="nav-link" href="/portfolio/">Portfolio</a>
+        <a class="nav-link" href="/blog/">Blog</a>
+        <a class="nav-link" href="/contact/">Contact</a>
+      </div>
+    </div>
+  </nav>
+  
+  <main class="container mt-5 pt-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h1 class="display-4 fw-bold text-primary mb-4">Welcome to DigitalBoost</h1>
+        <p class="lead mb-4">
+          Professional digital marketing agency offering SEO, social media, web design, 
+          and content marketing services to grow your business online.
+        </p>
+        
+        <div class="row g-4 mt-5">
+          <div class="col-md-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">SEO Services</h5>
+                <p class="card-text">Improve your search rankings and drive organic traffic to your website.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Social Media Marketing</h5>
+                <p class="card-text">Build your brand and engage with customers on social platforms.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Web Design</h5>
+                <p class="card-text">Create stunning, responsive websites that convert visitors into customers.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Content Marketing</h5>
+                <p class="card-text">Develop compelling content that attracts and retains your audience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mt-5">
+          <a href="/contact/" class="btn btn-primary btn-lg">Get Started Today</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

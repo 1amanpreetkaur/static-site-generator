@@ -1,0 +1,12 @@
+{
+  "name": "mtm6407-static-site",
+  "version": "1.0.0",
+  "description": "Static site for MTM6407",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

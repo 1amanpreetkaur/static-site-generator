@@ -1,0 +1,256 @@
+{
+  "site": {
+    "name": "DigitalBoost",
+    "tagline": "Accelerating Business Growth Through Digital Marketing",
+    "description": "Professional digital marketing agency specializing in SEO, social media marketing, web design, and content strategy. We help businesses grow their online presence and increase revenue.",
+    "url": "https://digitalboost.com",
+    "email": "hello@digitalboost.com",
+    "phone": "+1 (416) 555-1234",
+    "address": {
+      "street": "123 Digital Avenue",
+      "city": "Toronto",
+      "state": "ON",
+      "zip": "M5V 3A8",
+      "country": "Canada"
+    },
+    "social": {
+      "facebook": "https://facebook.com/digitalboost",
+      "twitter": "https://twitter.com/digitalboost",
+      "linkedin": "https://linkedin.com/company/digitalboost",
+      "instagram": "https://instagram.com/digitalboost",
+      "youtube": "https://youtube.com/c/digitalboost"
+    }
+  },
+  "navigation": {
+    "main": [
+      {
+        "text": "Home",
+        "url": "/",
+        "icon": "bi-house"
+      },
+      {
+        "text": "Services",
+        "url": "/services/",
+        "icon": "bi-gear"
+      },
+      {
+        "text": "Portfolio",
+        "url": "/portfolio/",
+        "icon": "bi-briefcase"
+      },
+      {
+        "text": "Blog",
+        "url": "/blog/",
+        "icon": "bi-journal-text"
+      },
+      {
+        "text": "Contact",
+        "url": "/contact/",
+        "icon": "bi-envelope",
+        "cta": true
+      }
+    ],
+    "footer": {
+      "services": [
+        {
+          "text": "Search Engine Optimization",
+          "url": "/services/#seo"
+        },
+        {
+          "text": "Social Media Marketing",
+          "url": "/services/#social-media"
+        },
+        {
+          "text": "Web Design & Development",
+          "url": "/services/#web-design"
+        },
+        {
+          "text": "Content Marketing",
+          "url": "/services/#content-marketing"
+        },
+        {
+          "text": "Pay-Per-Click Advertising",
+          "url": "/services/#ppc"
+        },
+        {
+          "text": "Email Marketing",
+          "url": "/services/#email"
+        }
+      ],
+      "company": [
+        {
+          "text": "About Us",
+          "url": "/about/"
+        },
+        {
+          "text": "Our Team",
+          "url": "/team/"
+        },
+        {
+          "text": "Case Studies",
+          "url": "/portfolio/"
+        },
+        {
+          "text": "Testimonials",
+          "url": "/testimonials/"
+        },
+        {
+          "text": "Careers",
+          "url": "/careers/"
+        },
+        {
+          "text": "Contact",
+          "url": "/contact/"
+        }
+      ],
+      "resources": [
+        {
+          "text": "Digital Marketing Blog",
+          "url": "/blog/"
+        },
+        {
+          "text": "SEO Guide",
+          "url": "/blog/seo-guide-2024/"
+        },
+        {
+          "text": "Local SEO Tips",
+          "url": "/blog/local-seo-small-business/"
+        },
+        {
+          "text": "Free SEO Audit",
+          "url": "/seo-audit/"
+        },
+        {
+          "text": "Marketing Calculator",
+          "url": "/roi-calculator/"
+        },
+        {
+          "text": "Industry Reports",
+          "url": "/reports/"
+        }
+      ],
+      "legal": [
+        {
+          "text": "Privacy Policy",
+          "url": "/privacy/"
+        },
+        {
+          "text": "Terms of Service",
+          "url": "/terms/"
+        },
+        {
+          "text": "Cookie Policy",
+          "url": "/cookies/"
+        },
+        {
+          "text": "Disclaimer",
+          "url": "/disclaimer/"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "clients": 250,
+    "projects": 500,
+    "experience": 8,
+    "satisfaction": 98
+  },
+  "testimonials": [
+    {
+      "name": "Sarah Johnson",
+      "company": "TechStart Solutions",
+      "role": "CEO",
+      "content": "DigitalBoost transformed our online presence completely. Our organic traffic increased by 400% in just 6 months, and we're now the go-to solution in our industry.",
+      "rating": 5,
+      "image": "/images/testimonials/sarah-johnson.jpg"
+    },
+    {
+      "name": "Michael Chen",
+      "company": "FreshFoods Co.",
+      "role": "Marketing Director",
+      "content": "The social media strategy they developed for us was incredible. We went from 5K to 55K followers and built a community of brand advocates that drives real sales.",
+      "rating": 5,
+      "image": "/images/testimonials/michael-chen.jpg"
+    },
+    {
+      "name": "Emily Rodriguez",
+      "company": "Bella Boutique",
+      "role": "Founder",
+      "content": "Our new e-commerce website not only looks amazing but has doubled our online sales. The ROI was immediate and continues to grow month over month.",
+      "rating": 5,
+      "image": "/images/testimonials/emily-rodriguez.jpg"
+    },
+    {
+      "name": "David Parker",
+      "company": "GreenTech Innovations",
+      "role": "CMO",
+      "content": "Their content marketing strategy established us as thought leaders in the clean energy space. We now get inbound leads from Fortune 500 companies.",
+      "rating": 5,
+      "image": "/images/testimonials/david-parker.jpg"
+    }
+  ],
+  "recentPosts": [
+    {
+      "title": "The Complete Guide to SEO in 2024",
+      "url": "/blog/seo-guide-2024/",
+      "excerpt": "Discover the latest SEO strategies and ranking factors that drive results in 2024.",
+      "date": "2024-03-15",
+      "category": "SEO",
+      "readTime": 12
+    },
+    {
+      "title": "Local SEO for Small Businesses",
+      "url": "/blog/local-seo-small-business/",
+      "excerpt": "Learn how to dominate local search results and attract more customers to your business.",
+      "date": "2024-03-10",
+      "category": "Local SEO",
+      "readTime": 8
+    },
+    {
+      "title": "Instagram Algorithm Updates 2024",
+      "url": "/blog/instagram-algorithm-2024/",
+      "excerpt": "Understand the latest Instagram algorithm changes and how to adapt your content strategy.",
+      "date": "2024-03-08",
+      "category": "Social Media",
+      "readTime": 6
+    }
+  ],
+  "categories": [
+    {
+      "name": "SEO",
+      "slug": "seo",
+      "description": "Search engine optimization tips and strategies",
+      "color": "success"
+    },
+    {
+      "name": "Social Media",
+      "slug": "social-media",
+      "description": "Social media marketing insights and tactics",
+      "color": "info"
+    },
+    {
+      "name": "Content Marketing",
+      "slug": "content-marketing",
+      "description": "Content strategy and creation best practices",
+      "color": "warning"
+    },
+    {
+      "name": "Analytics",
+      "slug": "analytics",
+      "description": "Data analysis and performance measurement",
+      "color": "danger"
+    },
+    {
+      "name": "Local SEO",
+      "slug": "local-seo",
+      "description": "Local search optimization for businesses",
+      "color": "success"
+    },
+    {
+      "name": "Industry Trends",
+      "slug": "trends",
+      "description": "Latest digital marketing trends and insights",
+      "color": "purple"
+    }
+  ]
+}

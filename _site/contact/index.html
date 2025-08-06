@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | DigitalBoost</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/">
+        <i class="bi bi-lightning-charge-fill me-2"></i>
+        DigitalBoost
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services/">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/portfolio/">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/contact/">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5 mt-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+        <h1 class="display-4 fw-bold text-primary mb-4">Get In Touch</h1>
+        <p class="lead text-muted">
+          Ready to boost your digital presence? Contact us today for a free consultation and see how we can help your business grow.
+        </p>
+      </div>
+    </div>
+    
+    <div class="row g-5">
+      <!-- Contact Form -->
+      <div class="col-lg-8">
+        <div class="card border-0 shadow-lg">
+          <div class="card-body p-5">
+            <h3 class="fw-bold text-primary mb-4">Send Us a Message</h3>
+            
+            <form id="contactForm" class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="firstName" name="firstName" required>
+                  <div class="invalid-feedback">
+                    Please provide your first name.
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <label for="lastName" class="form-label">Last Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="lastName" name="lastName" required>
+                  <div class="invalid-feedback">
+                    Please provide your last name.
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid email address.
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" id="phone" name="phone">
+                </div>
+                
+                <div class="col-12">
+                  <label for="company" class="form-label">Company/Organization</label>
+                  <input type="text" class="form-control" id="company" name="company">
+                </div>
+                
+                <div class="col-12">
+                  <label for="service" class="form-label">Service Interest <span class="text-danger">*</span></label>
+                  <select class="form-select" id="service" name="service" required>
+                    <option value="">Choose a service...</option>
+                    <option value="seo">Search Engine Optimization (SEO)</option>
+                    <option value="social-media">Social Media Marketing</option>
+                    <option value="web-design">Web Design & Development</option>
+                    <option value="content-marketing">Content Marketing</option>
+                    <option value="google-ads">Google Ads & PPC</option>
+                    <option value="analytics">Analytics & Reporting</option>
+                    <option value="consultation">Free Consultation</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a service you're interested in.
+                  </div>
+                </div>
+                
+                <div class="col-12">
+                  <label for="budget" class="form-label">Monthly Budget Range</label>
+                  <select class="form-select" id="budget" name="budget">
+                    <option value="">Select budget range...</option>
+                    <option value="under-1000">Under $1,000</option>
+                    <option value="1000-2500">$1,000 - $2,500</option>
+                    <option value="2500-5000">$2,500 - $5,000</option>
+                    <option value="5000-10000">$5,000 - $10,000</option>
+                    <option value="over-10000">Over $10,000</option>
+                  </select>
+                </div>
+                
+                <div class="col-12">
+                  <label for="timeline" class="form-label">Project Timeline</label>
+                  <select class="form-select" id="timeline" name="timeline">
+                    <option value="">When would you like to start?</option>
+                    <option value="immediately">Immediately</option>
+                    <option value="within-month">Within 1 month</option>
+                    <option value="1-3-months">1-3 months</option>
+                    <option value="3-6-months">3-6 months</option>
+                    <option value="not-sure">Not sure yet</option>
+                  </select>
+                </div>
+                
+                <div class="col-12">
+                  <label for="message" class="form-label">Project Details <span class="text-danger">*</span></label>
+                  <textarea class="form-control" id="message" name="message" rows="5" 
+                            placeholder="Tell us about your project, goals, current challenges, or any specific requirements..." required></textarea>
+                  <div class="invalid-feedback">
+                    Please provide details about your project.
+                  </div>
+                </div>
+                
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="newsletter" name="newsletter">
+                    <label class="form-check-label" for="newsletter">
+                      Subscribe to our newsletter for digital marketing tips and updates
+                    </label>
+                  </div>
+                </div>
+                
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="privacy" name="privacy" required>
+                    <label class="form-check-label" for="privacy">
+                      I agree to the <a href="#" class="text-primary">Privacy Policy</a> and <a href="#" class="text-primary">Terms of Service</a> <span class="text-danger">*</span>
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree to our privacy policy and terms.
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary btn-lg px-5" data-loading-text="<i class='bi bi-hourglass-split me-2'></i>Sending...">
+                    <i class="bi bi-send me-2"></i>
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contact Information -->
+      <div class="col-lg-4">
+        <!-- Contact Details -->
+        <div class="card border-0 shadow-sm mb-4">
+          <div class="card-body p-4">
+            <h5 class="fw-bold text-primary mb-4">
+              <i class="bi bi-geo-alt me-2"></i>
+              Contact Information
+            </h5>
+            
+            <div class="contact-item mb-4">
+              <div class="d-flex align-items-start">
+                <div class="contact-icon me-3">
+                  <i class="bi bi-building text-primary fs-4"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-1">Office Address</h6>
+                  <p class="text-muted mb-0">
+                    123 Marketing Street<br>
+                    Suite 400<br>
+                    Toronto, ON M5V 3A8<br>
+                    Canada
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="contact-item mb-4">
+              <div class="d-flex align-items-start">
+                <div class="contact-icon me-3">
+                  <i class="bi bi-telephone text-primary fs-4"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-1">Phone</h6>
+                  <p class="text-muted mb-0">
+                    <a href="tel:+14165550123" class="text-decoration-none">(416) 555-0123</a><br>
+                    <small>Mon-Fri: 9:00 AM - 6:00 PM EST</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="contact-item mb-4">
+              <div class="d-flex align-items-start">
+                <div class="contact-icon me-3">
+                  <i class="bi bi-envelope text-primary fs-4"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-1">Email</h6>
+                  <p class="text-muted mb-0">
+                    <a href="mailto:hello@digitalboost.ca" class="text-decoration-none">hello@digitalboost.ca</a><br>
+                    <small>We respond within 24 hours</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="d-flex align-items-start">
+                <div class="contact-icon me-3">
+                  <i class="bi bi-chat-dots text-primary fs-4"></i>
+                </div>
+                <div>
+                  <h6 class="fw-bold mb-1">Live Chat</h6>
+                  <p class="text-muted mb-2">Available on our website</p>
+                  <button class="btn btn-outline-primary btn-sm">
+                    <i class="bi bi-chat me-1"></i>
+                    Start Chat
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Business Hours -->
+        <div class="card border-0 shadow-sm mb-4">
+          <div class="card-body p-4">
+            <h5 class="fw-bold text-primary mb-4">
+              <i class="bi bi-clock me-2"></i>
+              Business Hours
+            </h5>
+            
+            <div class="business-hours">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="fw-semibold">Monday - Friday</span>
+                <span class="text-muted">9:00 AM - 6:00 PM</span>
+              </div>
+              <div class="d-flex justify-content-between mb-2">
+                <span class="fw-semibold">Saturday</span>
+                <span class="text-muted">10:00 AM - 4:00 PM</span>
+              </div>
+              <div class="d-flex justify-content-between mb-2">
+                <span class="fw-semibold">Sunday</span>
+                <span class="text-muted">Closed</span>
+              </div>
+              <hr class="my-3">
+              <div class="text-center">
+                <p class="text-muted mb-0">
+                  <i class="bi bi-info-circle me-1"></i>
+                  Emergency support available 24/7
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- FAQ Quick Links -->
+        <div class="card border-0 shadow-sm">
+          <div class="card-body p-4">
+            <h5 class="fw-bold text-primary mb-4">
+              <i class="bi bi-question-circle me-2"></i>
+              Quick Answers
+            </h5>
+            
+            <div class="accordion accordion-flush" id="faqAccordion">
+              <div class="accordion-item border-0">
+                <h6 class="accordion-header">
+                  <button class="accordion-button collapsed p-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    How long does SEO take?
+                  </button>
+                </h6>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body p-0 pt-2">
+                    <p class="text-muted small">
+                      SEO results typically take 3-6 months to show significant improvement, depending on competition and current website status.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item border-0">
+                <h6 class="accordion-header">
+                  <button class="accordion-button collapsed p-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    Do you offer free consultations?
+                  </button>
+                </h6>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body p-0 pt-2">
+                    <p class="text-muted small">
+                      Yes! We offer free 30-minute consultations to discuss your goals and how we can help achieve them.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item border-0">
+                <h6 class="accordion-header">
+                  <button class="accordion-button collapsed p-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    What's included in your packages?
+                  </button>
+                </h6>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body p-0 pt-2">
+                    <p class="text-muted small">
+                      All packages include strategy development, implementation, monthly reporting, and ongoing optimization.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Map Section -->
+    <div class="row mt-5">
+      <div class="col-12">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body p-0">
+            <div class="map-container" style="height: 400px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); position: relative;">
+              <div class="d-flex align-items-center justify-content-center h-100 text-white text-center">
+                <div>
+                  <i class="bi bi-geo-alt-fill display-4 mb-3"></i>
+                  <h4 class="fw-bold">Visit Our Office</h4>
+                  <p class="mb-3">123 Marketing Street, Suite 400<br>Toronto, ON M5V 3A8</p>
+                  <button class="btn btn-light">
+                    <i class="bi bi-map me-2"></i>
+                    View on Google Maps
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h3 class="fw-bold text-primary mb-3">Ready to Get Started?</h3>
+          <p class="lead text-muted mb-0">
+            Book a free consultation call and let's discuss how we can help grow your business online.
+          </p>
+        </div>
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+          <a href="tel:+14165550123" class="btn btn-primary btn-lg px-4 me-3">
+            <i class="bi bi-telephone me-2"></i>
+            Call Now
+          </a>
+          <a href="#contactForm" class="btn btn-outline-primary btn-lg px-4">
+            <i class="bi bi-calendar me-2"></i>
+            Book Call
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h5 class="fw-bold mb-3">
+            <i class="bi bi-lightning-charge-fill me-2"></i>
+            DigitalBoost
+          </h5>
+          <p class="text-muted">
+            Professional digital marketing agency helping businesses grow their online presence and increase revenue.
+          </p>
+          <div class="social-links">
+            <a href="#" class="text-muted me-3"><i class="bi bi-facebook fs-5"></i></a>
+            <a href="#" class="text-muted me-3"><i class="bi bi-twitter fs-5"></i></a>
+            <a href="#" class="text-muted me-3"><i class="bi bi-linkedin fs-5"></i></a>
+            <a href="#" class="text-muted me-3"><i class="bi bi-instagram fs-5"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Services</h6>
+          <ul class="list-unstyled">
+            <li><a href="/services/#seo" class="text-muted text-decoration-none">SEO</a></li>
+            <li><a href="/services/#social" class="text-muted text-decoration-none">Social Media</a></li>
+            <li><a href="/services/#web" class="text-muted text-decoration-none">Web Design</a></li>
+            <li><a href="/services/#content" class="text-muted text-decoration-none">Content Marketing</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h6 class="fw-bold mb-3">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="/" class="text-muted text-decoration-none">Home</a></li>
+            <li><a href="/services/" class="text-muted text-decoration-none">Services</a></li>
+            <li><a href="/portfolio/" class="text-muted text-decoration-none">Portfolio</a></li>
+            <li><a href="/blog/" class="text-muted text-decoration-none">Blog</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 mb-4">
+          <h6 class="fw-bold mb-3">Contact Info</h6>
+          <div class="text-muted">
+            <p><i class="bi bi-geo-alt me-2"></i>123 Marketing Street<br>Toronto, ON M5V 3A8</p>
+            <p><i class="bi bi-phone me-2"></i>(416) 555-0123</p>
+            <p><i class="bi bi-envelope me-2"></i>hello@digitalboost.ca</p>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="my-4">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="text-muted mb-0">&copy; 2025 DigitalBoost. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="text-muted mb-0">Built with Eleventy & Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/script.js"></script>
+</body>
+</html>
+

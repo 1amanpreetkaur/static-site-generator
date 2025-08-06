@@ -1,0 +1,150 @@
+---
+layout: layout.njk
+---
+
+<div class="container py-5">
+  <div class="row">
+    <!-- Main Content -->
+    <div class="col-lg-8">
+      <article class="blog-post">
+        {% if featured_image %}
+        <div class="featured-image mb-4">
+          <img src="{{ featured_image }}" alt="{{ title }}" class="img-fluid rounded">
+        </div>
+        {% endif %}
+        
+        <header class="mb-4">
+          <h1 class="display-5 fw-bold text-primary mb-3">{{ title }}</h1>
+          
+          <div class="post-meta d-flex flex-wrap align-items-center text-muted mb-3">
+            <span class="me-3">
+              <i class="bi bi-calendar3 me-1"></i>
+              {{ date | dateFormat }}
+            </span>
+            {% if author %}
+            <span class="me-3">
+              <i class="bi bi-person me-1"></i>
+              {{ author }}
+            </span>
+            {% endif %}
+            {% if category %}
+            <span class="me-3">
+              <i class="bi bi-folder me-1"></i>
+              {{ category }}
+            </span>
+            {% endif %}
+            {% if readTime %}
+            <span>
+              <i class="bi bi-clock me-1"></i>
+              {{ readTime }} min read
+            </span>
+            {% endif %}
+          </div>
+          
+          {% if description %}
+          <p class="lead text-muted">{{ description }}</p>
+          {% endif %}
+        </header>
+        
+        <div class="post-content">
+          {{ content | safe }}
+        </div>
+        
+        <!-- Tags -->
+        {% if tags %}
+        <div class="post-tags mt-5 pt-4 border-top">
+          <h6 class="fw-bold mb-3">Tags:</h6>
+          {% for tag in tags %}
+            {% if tag != 'post' %}
+            <span class="badge bg-light text-dark me-2 mb-2">{{ tag }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
+        
+        <!-- Share Buttons -->
+        <div class="share-buttons mt-4 pt-4 border-top">
+          <h6 class="fw-bold mb-3">Share this post:</h6>
+          <div class="d-flex gap-2">
+            <a href="https://twitter.com/intent/tweet?text={{ title }}&url={{ page.url }}" 
+               class="btn btn-outline-primary btn-sm" target="_blank">
+              <i class="bi bi-twitter me-1"></i>Twitter
+            </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url }}" 
+               class="btn btn-outline-primary btn-sm" target="_blank">
+              <i class="bi bi-facebook me-1"></i>Facebook
+            </a>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url }}" 
+               class="btn btn-outline-primary btn-sm" target="_blank">
+              <i class="bi bi-linkedin me-1"></i>LinkedIn
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+    
+    <!-- Sidebar -->
+    <div class="col-lg-4">
+      <div class="sidebar">
+        <!-- Recent Posts -->
+        <div class="card mb-4">
+          <div class="card-header bg-primary text-white">
+            <h6 class="card-title mb-0 fw-bold">Recent Posts</h6>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mb-0">
+              <li class="mb-3">
+                <a href="/blog/social-media-trends-2025/" class="text-decoration-none">
+                  <h6 class="mb-1">Social Media Trends for 2025</h6>
+                  <small class="text-muted">January 15, 2025</small>
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="/blog/seo-best-practices/" class="text-decoration-none">
+                  <h6 class="mb-1">SEO Best Practices Guide</h6>
+                  <small class="text-muted">January 10, 2025</small>
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="/blog/content-marketing-strategy/" class="text-decoration-none">
+                  <h6 class="mb-1">Building a Content Strategy</h6>
+                  <small class="text-muted">January 5, 2025</small>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Categories -->
+        <div class="card mb-4">
+          <div class="card-header bg-primary text-white">
+            <h6 class="card-title mb-0 fw-bold">Categories</h6>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" class="text-decoration-none">SEO <span class="text-muted">(8)</span></a></li>
+              <li><a href="#" class="text-decoration-none">Social Media <span class="text-muted">(12)</span></a></li>
+              <li><a href="#" class="text-decoration-none">Web Design <span class="text-muted">(5)</span></a></li>
+              <li><a href="#" class="text-decoration-none">Content Marketing <span class="text-muted">(7)</span></a></li>
+              <li><a href="#" class="text-decoration-none">Analytics <span class="text-muted">(4)</span></a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Newsletter -->
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <h6 class="card-title fw-bold">Stay Updated</h6>
+            <p class="card-text text-muted">Subscribe to our newsletter for the latest digital marketing tips and insights.</p>
+            <form class="newsletter-form">
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Your email">
+                <button class="btn btn-primary" type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
